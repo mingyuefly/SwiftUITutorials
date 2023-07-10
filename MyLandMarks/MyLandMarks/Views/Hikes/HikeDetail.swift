@@ -15,7 +15,7 @@ struct HikeDetail: View {
         ("Elevation", \Hike.Observation.elevation),
         ("Heart Rate", \Hike.Observation.heartRate),
         ("Pace", \Hike.Observation.pace)
-    ]
+    ]    
 
     var body: some View {
         VStack {

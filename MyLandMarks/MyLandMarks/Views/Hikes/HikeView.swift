@@ -31,12 +31,13 @@ struct HikeView: View {
                         .font(.headline)
                     Text(hike.distanceText)
                 }
-
+                
                 Spacer()
-
+                
                 Button {
                     withAnimation {
                         showDetail.toggle()
+//                        showDetail = !showDetail
                     }
                 } label: {
                     Label("Graph", systemImage: "chevron.right.circle")
